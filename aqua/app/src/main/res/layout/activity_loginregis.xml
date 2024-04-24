@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/latarbirulogin"
+    android:paddingRight="0dp"
+    android:paddingLeft="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    tools:context=".loginregis">
+
+    <ImageView
+        android:id="@+id/elementbirubawah"
+        android:layout_width="581dp"
+        android:layout_height="428dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-85dp"
+        android:layout_marginEnd="-99dp"
+        android:layout_marginBottom="-126dp"
+        app:srcCompat="@drawable/elementbirubawah" />
+
+    <ImageView
+        android:id="@+id/botolaqua"
+        android:layout_width="239dp"
+        android:layout_height="575dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="-139dp"
+        app:srcCompat="@drawable/botolaqua" />
+
+    <ImageView
+        android:id="@+id/logoaqua"
+        android:layout_width="316dp"
+        android:layout_height="291dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="457dp"
+        app:srcCompat="@drawable/logoaqua" />
+
+    <Button
+        android:id="@+id/buttonlogin"
+        android:layout_width="195dp"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="469dp"
+        android:background="@drawable/buttonlogin"
+        android:backgroundTint="#1c549c"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:onClick="loginn"
+        android:text="Login"/>
+
+    <Button
+        android:id="@+id/buttonregis"
+        android:layout_width="195dp"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="390dp"
+        android:background="@drawable/buttonregis"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:onClick="regis"
+        android:text="Registrasi" />
+
+    <ImageView
+        android:id="@+id/textalamhidup"
+        android:layout_width="176dp"
+        android:layout_height="88dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="317dp"
+        app:srcCompat="@drawable/textalamhidup" />
+
+</RelativeLayout>
