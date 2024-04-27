@@ -27,4 +27,5 @@ public class loginregis extends AppCompatActivity {
         Intent intent = new Intent(loginregis.this, register.class);
         startActivity(intent);
     }
+
 }

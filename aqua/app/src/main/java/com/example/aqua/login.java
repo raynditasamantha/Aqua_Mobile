@@ -24,4 +24,8 @@ public void back(View v) {
     Intent intent = new Intent (login.this, loginregis.class);
     startActivity(intent);}
 
+    public void molenn(View v) {
+        Intent intent = new Intent (login.this, hal1.class);
+        startActivity(intent);}
+
 }
