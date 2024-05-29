@@ -21,8 +21,9 @@ public class hal1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_hal1);
-        DrawerLayout drawerLayout = findViewById(R.id.driver_layout);;
-        NavigationView navigationView =findViewById(R.id.nav_menu);
+        DrawerLayout drawerLayout = findViewById(R.id.driver_layout);
+        ;
+        NavigationView navigationView = findViewById(R.id.nav_menu);
 
         navigationView.setNavigationItemSelectedListener(item -> {
             if (item.getItemId() == R.id.logout) {
@@ -37,6 +38,7 @@ public class hal1 extends AppCompatActivity {
         });
 
     }
+
     public void burgerr(View view) {
         DrawerLayout drawerLayout = findViewById(R.id.driver_layout);
         if (drawerLayout.isDrawerOpen(GravityCompat.END)) {
@@ -47,4 +49,13 @@ public class hal1 extends AppCompatActivity {
 
     }
 
+    public void scanner(View v) {
+        Intent intent = new Intent(hal1.this, scan.class);
+        startActivity(intent);
+    }
+
+    public void extra(View v) {
+        Intent intent = new Intent(hal1.this, spin.class);
+        startActivity(intent);
+    }
 }
